@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 26 08:32:49 2016
-
-@author: Gaurav
-"""
 
 # If you want to add or remove any discout category just add it in 'of' array as well as increase the column head
 
@@ -285,3 +280,5 @@ for i in range (0,len(reada)):
 print(len(reada))
 
 reada.to_csv(fout,sep=',')
+
+
